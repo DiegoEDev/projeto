@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Banners from '../components/banners';
 import Animais from '../components/animais';
+import Viveiros from '../components/viveiros';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <Banners />
 		<Animais />
+		<Viveiros />
       </main>
     </div>
   )

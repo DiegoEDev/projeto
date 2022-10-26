@@ -20,7 +20,7 @@ const Animais = styled.div`
 
 		.img {
 			width: 25%;
-			height: 100%;
+			height: 250px;
 			border-radius: 50%;
 			overflow: hidden;
 			box-shadow: 0 0 10px;

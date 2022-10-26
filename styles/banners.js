@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Banners = styled.div`
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw; */
+    height: 80vh;
     background-color: #000;
     color: #fff;
     display: flex;
@@ -14,7 +14,7 @@ const Banners = styled.div`
 
     .img {
         width: 100vw;
-        height: 100vh;
+        height: 60vh;
         display: flex;
         justify-content: center;
     }
@@ -30,8 +30,9 @@ const Banners = styled.div`
 		padding: 0 2rem;
 		z-index: 10;
 		height: 10vh;
-		/* backgound with linear color */
-		/* background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 100%); */
+		color: #fff;
+		/* backgound with linear color  */
+		background: linear-gradient(180deg,rgb(0 0 0 / 71%) 0%,rgb(0 0 0 / 0%) 100%);
 
 		img {
 			width: 8rem;
@@ -48,7 +49,7 @@ const Banners = styled.div`
 			li {
 				margin-left: 50px;
 				a {
-					color: #000;
+					color: #fff;
 					text-decoration: none;
 				}
 			}
